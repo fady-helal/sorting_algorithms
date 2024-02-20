@@ -30,7 +30,7 @@ for (j = 0 ; j < my_size - i - 1 ; j++)
 if (array[j] > array[j + 1])
 {
 _swap(&array[j], &array[j + 1]);
-bool = false;
+flag = false;
 print_array(array, my_size);
 }
 }
