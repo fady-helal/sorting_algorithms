@@ -20,7 +20,7 @@ size_t i, j;
 int flag = true;
 for (i = 0 ; i < my_size - 1; i++)
 {
-    for (j = 0 ; j < my_size - i - 1 ; j++)
+    for(j = 0 ; j < my_size - i - 1 ; j++)
     {
         if (array[j] > array[j + 1])
         {
