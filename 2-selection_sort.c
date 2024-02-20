@@ -18,8 +18,11 @@ temp = *index1;
 */
 void selection_sort(int *array, size_t size)
 {
+
 size_t size_array = size;
 size_t i, j, minindex;
+if (array == NULL || size < 2)
+	return;
 for (i = 0 ; i < size_array - 1 ; i++)
 {
 minindex = i;
