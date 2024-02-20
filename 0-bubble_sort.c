@@ -31,7 +31,6 @@ if (array[j] > array[j + 1])
 {
 _swap(&array[j], &array[j + 1]);
 print_array(array, my_size);
-flag = false;
 }
 }
 if (flag == false)
